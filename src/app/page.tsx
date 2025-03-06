@@ -6,12 +6,12 @@ import { ScrollTrigger } from "gsap/ScrollTrigger"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Header } from "@/components/header"
-import { Footer } from "@/components/footer"
+// import { Footer } from "@/components/footer"
 import { ArrowRight, Users, Rocket, LightbulbIcon as LightBulb, Handshake, DollarSign } from "lucide-react"
 import { CardReveal } from "@/components/card-reveal"
 import Image from "next/image"
 import Link from "next/link"
-import { Twitter, Linkedin, Share2 } from "lucide-react"
+// import { Twitter, Linkedin, Share2 } from "lucide-react"
 
 
 // Register ScrollTrigger plugin
@@ -74,7 +74,7 @@ export default function Home() {
     )
 
     // Animate content sections
-    contentRefs.current.forEach((ref, index) => {
+    contentRefs.current.forEach((ref) => {
       gsap.from(ref, {
         opacity: 0,
         y: 50,
@@ -134,7 +134,7 @@ export default function Home() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 {/* Social Links */}
-                <div className="flex gap-3 mb-8">
+                {/* <div className="flex gap-3 mb-8">
                   <Link
                     href="#"
                     className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-gray-50 transition-colors"
@@ -153,13 +153,13 @@ export default function Home() {
                   >
                     <Share2 className="h-5 w-5 text-gray-600" />
                   </Link>
-                </div>
+                </div> */}
                 <h1 className="text-xl md:text-2xl lg:text-2xl font-bold leading-[1.1] mb-8">
                 Connecting Algerian Startups with Investors</h1>
                 
                 <p className="text-lg text-gray-600 mb-8">
-                  Join a thriving network of innovators and investors shaping Algeria's entrepreneurial future. <br />
-                  Discover, Connect, and Grow in Algeria's Thriving Startup Ecosystem
+                  Join a thriving network of innovators and investors shaping Algerias entrepreneurial future. <br />
+                  Discover, Connect, and Grow in Algerias Thriving Startup Ecosystem
                 </p>
                 <Button
                   size="lg"
@@ -288,7 +288,7 @@ export default function Home() {
                 <h2 className="text-3xl font-bold mb-6">For Investors</h2>
               <p className="text-xl text-gray-600 mb-6">
                 Discover the next big thing in the Algerian startup ecosystem. invsta connects you with promising
-                ventures across various sectors, offering unique opportunities to be part of Algeria's innovation
+                ventures across various sectors, offering unique opportunities to be part of Algerias innovation
                 journey.
               </p>
               <ul className="space-y-4">
@@ -319,7 +319,7 @@ export default function Home() {
           <div className="bg-gradient-to-r from-[#a7ec4f] to-[#00bf63] rounded-2xl p-12 text-center">
               <h2 className="text-3xl font-bold text-white mb-6">Start Your Funding Journey Today!</h2>
             <p className="text-xl text-white/90 mb-8">
-              Join إنفستا and be part of Algeria's thriving startup ecosystem.
+              Join invsta and be part of Algerias thriving startup ecosystem.
             </p>
             <Link
                     href="https://invsta.vercel.app/"
@@ -354,7 +354,7 @@ export default function Home() {
         ></div>
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

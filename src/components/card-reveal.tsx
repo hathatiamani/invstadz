@@ -1,16 +1,21 @@
-"use client"
+"use client";
 
-import { useEffect, useRef } from "react"
-import { gsap } from "gsap"
-import { ScrollTrigger } from "gsap/ScrollTrigger"
+import { useEffect, useRef, ReactNode } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-gsap.registerPlugin(ScrollTrigger)
+gsap.registerPlugin(ScrollTrigger);
 
-export function CardReveal({ children }) {
-  const cardRef = useRef(null)
+interface CardRevealProps {
+  children: ReactNode;
+}
+
+export function CardReveal({ children }: CardRevealProps) {
+  const cardRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const card = cardRef.current
+    const card = cardRef.current;
+    if (!card) return;
 
     gsap.from(card, {
       opacity: 0,
@@ -24,9 +29,8 @@ export function CardReveal({ children }) {
         end: "bottom 20%",
         toggleActions: "play none none reverse",
       },
-    })
-  }, [])
+    });
+  }, []);
 
-  return <div ref={cardRef}>{children}</div>
+  return <div ref={cardRef}>{children}</div>;
 }
-
