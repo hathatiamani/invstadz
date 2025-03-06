@@ -315,7 +315,7 @@ export default function Home() {
 
       {/* CTA Section */}
       <section id="get-started" className="py-20" ref={addToRefs}>
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 flex flex-col items-center justify-center">
           <div className="bg-gradient-to-r from-[#a7ec4f] to-[#00bf63] rounded-2xl p-12 text-center">
               <h2 className="text-3xl font-bold text-white mb-6">Start Your Funding Journey Today!</h2>
             <p className="text-xl text-white/90 mb-8">
@@ -353,6 +353,9 @@ export default function Home() {
           className="absolute top-1/2 right-1/2 w-20 h-20 bg-[#7ed957] rounded-full opacity-20"
         ></div>
       </div>
+              <div className="mt-12 pt-8 border-t border-gray-200">
+                <p className="text-center text-gray-600">© {new Date().getFullYear()} إنفستا. All rights reserved.</p>
+              </div>
 
       {/* <Footer /> */}
     </div>
