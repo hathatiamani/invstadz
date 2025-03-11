@@ -172,7 +172,7 @@ export default function Home() {
               </div>
               <div className="relative">
                 {/* Floating Stats Card */}
-                <Card className="absolute top-8 right-8 p-6 z-10 w-[240px] bg-white/30 backdrop-blur-md">
+                {/* <Card className="absolute top-8 right-8 p-6 z-10 w-[240px] bg-white/30 backdrop-blur-md">
                   <div className="text-4xl font-bold mb-2 text-white">Join</div>
                   <p className="text-sm text-black-600">Showcase ideas, secure funding, and build partnerships.</p>
                   <div className="flex -space-x-2 mt-4">
@@ -183,7 +183,7 @@ export default function Home() {
                       +more
                     </div>
                   </div>
-                </Card>
+                </Card> */}
 
                 {/* Main Illustration */}
                 <div className="relative h-[450px] rounded-2xl overflow-hidden">
