@@ -315,28 +315,25 @@ export default function Home() {
 
       {/* CTA Section */}
       <section id="get-started" className="py-20" ref={addToRefs}>
-        <div className="container mx-auto px-4 flex flex-col items-center justify-center">
-          <div className="bg-gradient-to-r from-[#a7ec4f] to-[#00bf63] rounded-2xl p-12 text-center">
-              <h2 className="text-3xl font-bold text-white mb-6">Start Your Funding Journey Today!</h2>
-            <p className="text-xl text-white/90 mb-8">
-              Join invsta and be part of Algerias thriving startup ecosystem.
-            </p>
-            <Link
-                    href="https://invsta.vercel.app/"
-                    className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-gray-50 transition-colors"
-                  >
-            <Button
-              size="lg"
-              variant="secondary"
-              className="bg-white text-[#00bf63] hover:bg-white/90 transition-all transform hover:scale-105"
-            >
-              Register Now
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>                  </Link>
-
+      <div className="container mx-auto px-4 flex flex-col items-center justify-center">
+        <div className="bg-gradient-to-r from-[#a7ec4f] to-[#00bf63] rounded-2xl p-12 text-center">
+          <h2 className="text-3xl font-bold text-white mb-6">Start Your Funding Journey Today!</h2>
+          <p className="text-xl text-white/90 mb-8">Join invsta and be part of Algerias thriving startup ecosystem.</p>
+          <div className="flex justify-center">
+            <Link href="https://invsta.vercel.app/">
+              <Button
+                size="lg"
+                variant="secondary"
+                className="bg-white text-[#00bf63] hover:bg-white/90 transition-all transform hover:scale-105"
+              >
+                Register Now
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+            </Link>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
       {/* Parallax Elements */}
       <div className="fixed inset-0 pointer-events-none">

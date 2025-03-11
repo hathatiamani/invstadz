@@ -45,7 +45,7 @@ export function Header() {
 
           {/* CTA Button */}
           <Button asChild className="bg-[#00bf63] text-white hover:bg-[#00bf63]/90 transition-colors">
-            <Link href="#get-started">jo us</Link>
+            <Link href="#get-started">Join Us</Link>
           </Button>
         </div>
       </div>
