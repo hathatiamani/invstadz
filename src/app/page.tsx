@@ -6,7 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Header } from "@/components/header"
-// import { Footer } from "@/components/footer"
+import { Footer } from "@/components/footer"
 import { ArrowRight, Users, Rocket, LightbulbIcon as LightBulb, Handshake, DollarSign } from "lucide-react"
 import { CardReveal } from "@/components/card-reveal"
 import Image from "next/image"
@@ -352,9 +352,10 @@ export default function Home() {
       </div>
               <div className="mt-12 pt-8 border-t border-gray-200">
                 <p className="text-center text-gray-600">© {new Date().getFullYear()} إنفستا. All rights reserved.</p>
+                
               </div>
 
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }

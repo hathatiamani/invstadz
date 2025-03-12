@@ -14,25 +14,25 @@ export function Footer() {
             <h3 className="font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/about" className="text-gray-600 hover:text-[#00bf63]">
+                <Link href="#about" className="text-gray-600 hover:text-[#00bf63]">
                   About
                 </Link>
               </li>
               <li>
-                <Link href="#how-it-works" className="text-gray-600 hover:text-[#00bf63]">
-                  How It Works
+                <Link href="#startup" className="text-gray-600 hover:text-[#00bf63]">
+                Startup
                 </Link>
               </li>
               <li>
-                <Link href="#features" className="text-gray-600 hover:text-[#00bf63]">
-                  Features
+                <Link href="#investor" className="text-gray-600 hover:text-[#00bf63]">
+                Investor
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="#testimonials" className="text-gray-600 hover:text-[#00bf63]">
                   Testimonials
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
 
@@ -40,32 +40,32 @@ export function Footer() {
             <h3 className="font-semibold mb-4">Legal</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="#" className="text-gray-600 hover:text-[#00bf63]">
+                <Link href="/privacy-policy" className="text-gray-600 hover:text-[#00bf63]">
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-600 hover:text-[#00bf63]">
+                <Link href="/terms-of-service" className="text-gray-600 hover:text-[#00bf63]">
                   Terms of Service
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="#" className="text-gray-600 hover:text-[#00bf63]">
                   Cookie Policy
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
-
+ 
           <div>
             <h3 className="font-semibold mb-4">Connect</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="#" className="text-gray-600 hover:text-[#00bf63]">
-                  Twitter
+                <Link href="https://www.instagram.com/invsta.dz/" className="text-gray-600 hover:text-[#00bf63]">
+                  Instagram
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="#" className="text-gray-600 hover:text-[#00bf63]">
                   LinkedIn
                 </Link>
@@ -74,7 +74,7 @@ export function Footer() {
                 <Link href="#" className="text-gray-600 hover:text-[#00bf63]">
                   Facebook
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
