@@ -93,7 +93,7 @@ Users can delete their accounts at any time.
 
               <h2 className="text-2xl font-semibold mt-8 mb-4">9. Contact Us</h2>
               <p className="mb-4">
-                If you have any questions about these Terms, please contact us at invstadz@gmail.com.
+                If you have any questions about these Terms, please contact us at contact@invsta.vercel.app.
               </p>
             </div>
           </div>

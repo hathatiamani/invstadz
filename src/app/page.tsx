@@ -7,11 +7,11 @@ import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import { ArrowRight, Users, Rocket, LightbulbIcon as LightBulb, Handshake, DollarSign } from "lucide-react"
+import { ArrowRight, Users, Rocket, LightbulbIcon as LightBulb, Handshake, DollarSign, Instagram } from "lucide-react"
 import { CardReveal } from "@/components/card-reveal"
 import Image from "next/image"
 import Link from "next/link"
-// import { Twitter, Linkedin, Share2 } from "lucide-react"
+import {  Linkedin } from "lucide-react"
 
 
 // Register ScrollTrigger plugin
@@ -134,28 +134,23 @@ export default function Home() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 {/* Social Links */}
-                {/* <div className="flex gap-3 mb-8">
+                <div className="flex gap-3 mb-8">
                   <Link
-                    href="#"
+                    href="https://www.instagram.com/invsta.dz/"
                     className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-gray-50 transition-colors"
                   >
-                    <Twitter className="h-5 w-5 text-gray-600" />
+                    <Instagram className="h-5 w-5 text-gray-600" />
                   </Link>
                   <Link
-                    href="#"
+                    href="https://www.linkedin.com/company/invstadz"
                     className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-gray-50 transition-colors"
                   >
                     <Linkedin className="h-5 w-5 text-gray-600" />
                   </Link>
-                  <Link
-                    href="#"
-                    className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-gray-50 transition-colors"
-                  >
-                    <Share2 className="h-5 w-5 text-gray-600" />
-                  </Link>
-                </div> */}
+                  
+                </div>
                 <h1 className="text-xl md:text-2xl lg:text-2xl font-bold leading-[1.1] mb-8">
-                Connecting Algerian Startups with Investors</h1>
+                Join the 1st Investment Matchmaking Platform in Algeria <br /> Start for Free.</h1>
                 
                 <p className="text-lg text-gray-600 mb-8">
                   Join a thriving network of innovators and investors shaping Algerias entrepreneurial future. <br />
